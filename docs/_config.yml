@@ -9,7 +9,7 @@ url: "https://ejwillemse.github.io."
 # Title of the Site
 title: A Heuristic Life
 # Description of the Site
-description: My personal website :-)
+description: My personal website :-) still very much a work in progress...
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -35,7 +35,7 @@ linkedin_username: eliasjw
 # spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+# google-analytics: UA-163806439-1
 
 # Disqus
 # disqus-shortname: thedevslot
@@ -43,7 +43,7 @@ google-analytics: UA-163806439-1
 # Name of the Author
 author-name: Elias J. Willemse
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/Elias_blazer_blw_sml_less1mb.jpg
 # 60 Words About the Author
 author-about: I'm a technical founder, based in London, with over 15 years of hands-on experience in AI and data science. Getting to this point took a while, via a PhD, being a senior lecturer, research fellow, engineering consultant, and moving from South Africa (most of my life) to Singapore (4 years) and now London (since 2022).
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
@@ -93,3 +93,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - test-page.md
+  - about.md
+  - blog.md
