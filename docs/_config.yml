@@ -58,6 +58,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-toc
 
 # Permalink
 permalink: "blog/:title"
@@ -80,6 +81,10 @@ defaults:
       type: "pages"
     values:
       layout: page
+
+toc:
+  min_level: 2 # default: 1
+  max_level: 2 # default: 6
 
 # Exclude
 exclude:

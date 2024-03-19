@@ -2,10 +2,214 @@
 layout: page
 title: Projects
 permalink: /projects/
+toc: true
 ---
 
-The following is a summary of industry research, research, consulting and product development projects that I completed prior to starting [Waste Labs](wastelabs.co).
-Waste Labs related projects can be found in my [CV](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing).
+The following is a summary of projects and products that I completed between 2020 and 2024 at [Waste Labs](wastelabs.co), where I am the co-founder and CTO, and between 2007 and 2019 in different research and consulting capacities. For my full work history, please refer to my [CV](https://drive.google.com/file/d/1MD6y9CAls64zxCIzWVkpJzImzfY4o2Bg/view?usp=sharing).
+
+## AI for public waste and recycling planning
+
+**Date**: Jun 2020 - Oct 2023
+
+**Company**: Waste Labs
+
+**External client**: ALBA WH (Singapore), ALBA Smart City Logistics (Hong Kong)
+
+**Type**: Technical consulting via internal AI tools
+
+**Value add**: Helped client secure £200m in new business
+
+We developed optimisation algorithms to calculate optimal resource requirements for large public waste collection tenders in Singapore and Hong Kong. The calculations were used by ALBA to formulate their bids. We further developed optimisation algorithms to find the optimal placement of electronic waste collection points and reverse vending machines for the general public.  
+
+A big challenge of the project was limited data. To ensure quality results, a wide array of national and international public data sources were scraped, cleaned and merged. These are still being used by the client.
+
+Case-studies of the projects are available [at this](https://docsend.com/view/r5tczsmyxhzcffsg) and [this link](https://docsend.com/view/r5tczsmyxhzcffsg).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vTAcVuoJYQw?si=81pf1KtJZYcAeyk_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Advanced methods implemented included combinatorial optimisation algorithms, graph theory, heuristics and metaheuristics, as well mixed integer programming models for the location models.
+
+Execution:
+
+* Directed a team of 1 data engineer, 2 data scientists, 2 data science interns
+* Duration: 1 month per tender
+
+Tech:
+* Algorithms: coded in python and cython, pyomo with cbc solver
+* Data processing: pandas, geopandas (geospatial data processing), fuzzywuzzy (partial-string matching), OSMNx (public data extraction) and PyTables (for large datasets) 
+* Data pipeline orchestration: kedro
+* Visualisation: kepler.gl (maps), matplotlip and plotly 
+* Reports and dashboards: jupyter notebooks, voila and streamlit
+* Cloud: AWS S3
+* Version control: GitHub
+
+## AI collection planning and next day dispatching system
+
+**Date**: Feb 2022 - Dec 2023
+
+**Company**: Waste Labs
+
+**External client**: ALBA Smart City Logistics (Hong Kong), Veolia UK
+
+**Type**: AI Product development and deployment
+
+**Value add**: Savings of £2000 per vehicle dispatched (3x over subscription fee)
+
+Developed a next-day collection planning system that uses optimisation algorithms to find the optimal collection sequence for collection vehicles. The gps-records were used to monitor planned vs actual performance. A case study is available [at this link](https://docsend.com/view/ast2a4946ngnh8bs).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YhrlcZtTbP8?si=Z9ruKFMYHKb-NWE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcJxWsNAEvI?si=L-fNTCGD2BpvFLEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+Advanced methods implemented included combinatorial optimisation algorithms, heuristics and metaheuristics. Machine Learning models were used on GPS records to monitor vehicle performance, specifically, DBSCAN produced clusters which were then used as an additional feature for regression models to identify collection activities. Many features and models were tested, with this combination proving effective.  
+
+Execution:
+
+* Directed a team of 1 data engineer, 1 front-end developer and 1 data scientists 
+* Duration: 22 months
+* Value add: savings of £2000 per vehicle dispatched (3x over subscription fee).
+
+Tech:
+
+* Algorithms: coded in python and cython, pyvroom
+* Data processing: pandas, geopandas (geospatial data processing), OSRM, scikit-learn (ML models)
+* Visualisation: kepler.gl (maps), plotly
+* Data pipeline orchestration: kedro
+* Backend: FastAPI, SQLite, AWS Lambda
+* Cloud: AWS EC2 with Docker, Lambda, S3
+* Frontend: mendix (v1) and streamlit (v2)
+* CI/CD and version control: GitHub
+
+## CIRCLE Design: recycling simulation and financial analysis AI platform 
+
+**Date**: Aug 2022 - Jul 2023
+
+**Company**: Waste Labs
+
+**External client**: Avery Dennison (Thailand)
+
+**Type**: AI Product development and deployment
+
+**Value add**: helped client avoid £10 million investment loss into financially infeasible projects.
+
+Developed a simulation and financial analysis tool to evaluate and compare different recycling options. The platform considered different treatment technologies, split recycling streams, and complex collection options, such as combining delivery and collection operations. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UIhiluz2vDE?si=8pa6xXYG9T6IEBpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N6G58C64TTY?si=LZ99EZQcpbQ-OrG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Advanced methods included combinatorial optimisation algorithms, heuristics and metaheuristics, system dynamic simulations, ROI and NVP financial and break-even calculations. 
+
+Execution: 
+
+* Directed a team of 1 data engineer and 1 data scientists
+* Duration: 6 months
+* Value add: helped client avoid £10 million investment loss into financially infeasible projects.
+
+Tech:
+
+* Algorithms: coded in python and cython, pyvroom
+* Data processing: pandas, geopandas (geospatial data processing), OSRM, scikit-learn
+* Visualisation: kepler.gl (maps), plotly
+* Data pipeline orchestration: kedro
+* Backend: FastAPI, SQLite
+* Cloud: AWS EC2 with Docker, S3
+* Frontend: streamlit
+* Version control: GitHub
+
+## AI for recycling and waste collection analyses
+
+**Date**: Mar 2020 - December 2023
+
+**Company**: Waste Labs
+
+**External client**: Bingo Industries (Australia), ALBA WH (Singapore), SembWaste (Singapore), Biffa (UK), RiverRidge (UK), COX Skips (UK), The Recycling Partnership (UK)
+
+**Type**: Technical consulting via internal AI tools
+
+We applied machine learning and optimisation models to infer waste collection activities, using gps-records and delivery reports. We then calculated financial KPIs, such us cost per tonne collected, customer, and distance driven, and forecasted savings potential if operations were optimised using advanced planning AI.  
+
+Advanced methods
+
+Advanced methods included density-based clustering, regression, combinatorial optimisation algorithms, heuristics and metaheuristics. 
+
+Execution:
+
+* Directed a team of 1 data engineer and 1 data scientists
+* Duration: 1 week to 2 months per project
+
+Tech:
+
+* Algorithms: coded in python and cython, pyvroom
+* Machine Learning: Scikit-learn
+* Data processing: pandas, geopandas (geospatial data processing), OSRM
+* Visualisation: kepler.gl (maps), plotly
+* Data pipeline orchestration: kedro
+* Backend: FastAPI
+* Cloud: AWS EC2 with Docker, S3
+* Frontend: streamlit
+* Version control: GitHub
+
+## AI driven sales optimisation
+
+**Date**: Jan 2021 - Jan 2023
+
+**Company**: Waste Labs
+
+**External client**: Bingo Industries (Australia), Biffa (UK)
+
+**Type**: AI Product development and deployment
+
+Developed a platform to assist waste and recycling companies to find ideal customer leads, based on their proximity to existing customers. The marginal costs of servicing each customer in different time-windows were also calculated, to be used for quotation purposes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DN9Gv_WuQ68?si=7WSuRTbnXRo8xl6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Advanced methods included combinatorial optimisation algorithms and heuristics. 
+
+Execution: 
+
+* Directed a team of 1 backend developer, 1 product manager, 1 data scientist and 1 frontend developer.
+* Duration: 2 years
+
+Tech:
+
+* Algorithms: coded in python and cython, pyvroom
+* Data processing: pandas, geopandas (geospatial data processing), OSRM, google-maps API
+* Visualisation: kepler.gl (maps), plotly
+* Data pipeline orchestration: kedro
+* Backend: FastAPI, SQLite, Mendix
+* Cloud: AWS EC2 with Docker, S3
+* Frontend: Mendix
+* Version control: GitHub
+
+## Recycling material mapping
+
+**Date**: Dec 2020 - Aug 2021
+
+**Company**: Waste Labs
+
+**External client**: ALBA Smart City Logistics (Hong Kong), Vitasoy (Hong Kong), Swire Coca-Cola (Hong Kong)
+
+**Type**: Technical consulting via internal AI tools
+
+Estimated generation of different waste streams over Hong Kong, using census data and other publicly available data sources. The estimates were calculated on a land-parcel resolution.
+
+Case-studies of the projects are available [at this](https://docsend.com/view/vbxmsypibihq9wm2) and [this link](https://drive.google.com/file/d/1HsSlv7nsfYDZ5YVIUkJTFRFOKG2ClSPX/view).
+
+Execution:
+
+* Directed a team of 1 data scientists
+* Duration: 1 month per project
+
+Tech:
+
+* Data processing: pandas, geopandas (geospatial data processing)
+* Visualisation: kepler.gl (maps), plotly
+* Data pipeline orchestration: kedro
+* Cloud: AWS S3
+* Frontend: jupyter notebooks
+* Version control: GitHub
 
 ## Population demographics simulation modelling
 
@@ -15,7 +219,7 @@ Waste Labs related projects can be found in my [CV](https://drive.google.com/fil
 
 **External client**: Housing Development Board, Singapore
 
-**Type** Industry research
+**Type**: Industry research
 
 Development of models to predict household demographics within Singapore
 
@@ -27,7 +231,7 @@ My main focus was to develop a Demographic Change Microsimulation model, linked 
 
 **Employer**: Singapore University of Technology and Design, Singapore
 
-**Type** Research
+**Type**: Research
 
 AI to extract and analyse vertical movements of people in Singapore
 
@@ -41,7 +245,7 @@ Part of a research team that developed Machine Learning models to analyse pressu
 
 **External clients**: WorleyParsons, South Africa, ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Simulation model to evaluate traffic alleviation options
 
@@ -57,7 +261,7 @@ My role in the project was as lead modeller and project manager. The project tea
 
 **External clients**: WorleyParsons, South Africa, ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Simulation model to calculate stockyard resource requirements
 
@@ -73,7 +277,7 @@ My role in the project was as lead modeller and project manager for the modellin
 
 **External clients**: WorleyParsons, South Africa, ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Simulation model to predict traffic compact from high volume coal deliveries
 
@@ -89,7 +293,7 @@ My role in the project was as lead modeller and project manager for the modellin
 
 **External clients**: WorleyParsons, South Africa, ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 AI model to calculate optimal locations for coal-consolidation
 
@@ -103,7 +307,7 @@ Optimisation modeller for determining the optimal location of bulk resource road
 
 **External clients**: Aurecon, South Africa, Port of Richard Bay, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Data wrangling and analysis for KPI extractions for a Port Terminal
 
@@ -117,7 +321,7 @@ Was a data analyst for data wrangling on port entries and activities at Richard 
 
 **External client**: National Nuclear Regulator, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Project manager for the redesign of an analytical radiological laboratory for the National Nuclear Regulator, South Africa.
 
@@ -129,7 +333,7 @@ Project manager for the redesign of an analytical radiological laboratory for th
 
 **External client**: Abbott, Global
 
-**Type** Product development
+**Type**: Product development
 
 Development of laboratory test planning and scheduling tool
 
@@ -143,7 +347,7 @@ The project entailed developing an excel based automated workflow planning tool,
 
 **External client**: Abbott, Global
 
-**Type** Consulting
+**Type**: Consulting
 
 AI model to calculate minimum resource requirements for laboratory tests
 
@@ -155,7 +359,7 @@ Developed an optimisation model to determine the minimum number of resources req
 
 **Employer**: LTS Health, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Business improvement project for plant nursery operations
 
@@ -175,7 +379,7 @@ Mar 2012 - May 2012
 
 **External client**: PwC, South Africa, ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 Business Process Re-engineering
 
@@ -193,7 +397,7 @@ Jan 2008 - Mar 2012
 
 **External clients**: OXFAM Italia, South Africa, Ekurhuleni Municipality, South Africa.
 
-**Type** Applied research and consulting
+**Type**: Applied research and consulting
 
 AI for waste collection optimisation
 
@@ -209,7 +413,7 @@ For implementation at Ekurhuleni Municipality, the existing waste collection and
 
 **External client**: ESKOM, South Africa
 
-**Type** Consulting
+**Type**: Consulting
 
 AI models for electricity capacity expansion planning
 
@@ -221,7 +425,7 @@ Part of a CSIR research team that assisted ESKOM (South African electricity publ
 
 **Employer**: Council for Scientific and Industrial Research (CSIR), South Africa
 
-**Type** Applied research
+**Type**: Applied research
 
 Simulation model and P&L analysis for integrated renewable energy system
 
@@ -241,7 +445,7 @@ After the simulation model was verified, the costing information of the technolo
 
 **External client**: Midfield Estate, South Africa
 
-**Type** Applied research
+**Type**: Applied research
 
 AI model for security route planning
 

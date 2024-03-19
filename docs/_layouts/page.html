@@ -6,10 +6,11 @@ layout: compress
 <html>
 {% include head.html %}
 
+
 <body>
-    {% include navbar.html %}
+
     <section class="hero is-fullheight">
-        <div class="hero-body">
+        <div class="hero-body">            
             <div class="container has-text-centered" id="page-section">
                 <div class="section">
                     <h1 class="title is-1 is-uppercase has-text-weight-bold">
@@ -18,7 +19,7 @@ layout: compress
                     <hr class="has-background-black">
                     <div class="content is-marginless">
                         <div class="container has-text-left" id="page-section">
-                            {{ content }}
+                            {{ content | toc }}
                         </div>
                     </div>
                 </div>
