@@ -23,7 +23,7 @@ We developed optimisation algorithms to calculate optimal resource requirements 
 
 A big challenge of the project was limited data. To ensure quality results, a wide array of national and international public data sources were scraped, cleaned and merged. These are still being used by the client.
 
-Case-studies of the projects are available [at this](https://docsend.com/view/r5tczsmyxhzcffsg) and [this link](https://docsend.com/view/r5tczsmyxhzcffsg).
+Case-studies of the projects are available [at this](https://docsend.com/view/r5tczsmyxhzcffsg) and [this link](https://docsend.com/view/99j8ekpu7vsq2iyh).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vTAcVuoJYQw?si=81pf1KtJZYcAeyk_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
