@@ -25,7 +25,13 @@ A big challenge of the project was limited data. To ensure quality results, a wi
 
 Case-studies of the projects are available [at this](https://docsend.com/view/r5tczsmyxhzcffsg) and [this link](https://docsend.com/view/99j8ekpu7vsq2iyh).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vTAcVuoJYQw?si=81pf1KtJZYcAeyk_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/msDw02O20O8?si=tKlJ7NYqiSL4gx5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FagklX9Qb00?si=OuJd3GAmbcvEL4hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vTAcVuoJYQw?si=BoftnswqLJZMrr5J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CNJHqUYBl2I?si=vSEJsbVcTBPcggYd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Advanced methods implemented included combinatorial optimisation algorithms, graph theory, heuristics and metaheuristics, as well mixed integer programming models for the location models.
 
@@ -35,6 +41,7 @@ Execution:
 * Duration: 1 month per tender
 
 Tech:
+
 * Algorithms: coded in python and cython, pyomo with cbc solver
 * Data processing: pandas, geopandas (geospatial data processing), fuzzywuzzy (partial-string matching), OSMNx (public data extraction) and PyTables (for large datasets) 
 * Data pipeline orchestration: kedro
@@ -57,9 +64,15 @@ Tech:
 
 Developed a next-day collection planning system that uses optimisation algorithms to find the optimal collection sequence for collection vehicles. The gps-records were used to monitor planned vs actual performance. A case study is available [at this link](https://docsend.com/view/ast2a4946ngnh8bs).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YhrlcZtTbP8?si=Z9ruKFMYHKb-NWE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DkLrFvnmHyc?si=EwKXu94aSjVNSgxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcJxWsNAEvI?si=L-fNTCGD2BpvFLEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qzyZwbW5c4?si=87adFU6vUcs_92O_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/czMtC15QUTU?si=EvV_8lH5a9mVIAU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dlNVSMCoilI?si=Kr_mytoNSKGyt2us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7ycBhbZ9ve0?si=ffa7TYD1xjnZiSbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Advanced methods implemented included combinatorial optimisation algorithms, heuristics and metaheuristics. Machine Learning models were used on GPS records to monitor vehicle performance, specifically, DBSCAN produced clusters which were then used as an additional feature for regression models to identify collection activities. Many features and models were tested, with this combination proving effective.  
@@ -97,7 +110,7 @@ Developed a simulation and financial analysis tool to evaluate and compare diffe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UIhiluz2vDE?si=8pa6xXYG9T6IEBpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N6G58C64TTY?si=LZ99EZQcpbQ-OrG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BEeHk5PQrj0?si=MoAza_RdXxW7Szu5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Advanced methods included combinatorial optimisation algorithms, heuristics and metaheuristics, system dynamic simulations, ROI and NVP financial and break-even calculations. 
 
@@ -130,7 +143,12 @@ Tech:
 
 We applied machine learning and optimisation models to infer waste collection activities, using gps-records and delivery reports. We then calculated financial KPIs, such us cost per tonne collected, customer, and distance driven, and forecasted savings potential if operations were optimised using advanced planning AI.  
 
-Advanced methods
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CMKFJpo4SDA?si=YJ28kHfrhnH_yvO2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HmJ9YDYfdwc?si=wv8F6Mt-bzJVq8SK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_YGIFQXGMOs?si=aley4F0HJuDcmdZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 Advanced methods included density-based clustering, regression, combinatorial optimisation algorithms, heuristics and metaheuristics. 
 
@@ -163,7 +181,11 @@ Tech:
 
 Developed a platform to assist waste and recycling companies to find ideal customer leads, based on their proximity to existing customers. The marginal costs of servicing each customer in different time-windows were also calculated, to be used for quotation purposes.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN9Gv_WuQ68?si=7WSuRTbnXRo8xl6a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EtZx6SP5RFY?si=DfO53hanuDqOSiAe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Op3VTFnkUD8?si=eJt7OKcnCcutxWYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3JfdQ1YfDWw?si=zvzvt9sK9Yk4gUUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Advanced methods included combinatorial optimisation algorithms and heuristics. 
 
@@ -196,6 +218,10 @@ Tech:
 Estimated generation of different waste streams over Hong Kong, using census data and other publicly available data sources. The estimates were calculated on a land-parcel resolution.
 
 Case-studies of the projects are available [at this](https://docsend.com/view/vbxmsypibihq9wm2) and [this link](https://drive.google.com/file/d/1HsSlv7nsfYDZ5YVIUkJTFRFOKG2ClSPX/view).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YZEH7aoA7Dc?si=f_nqxj1NwT0uwPqt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvNxOV8rMiM?si=HsmSBDf1afuImOux" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Execution:
 
@@ -249,6 +275,8 @@ Part of a research team that developed Machine Learning models to analyse pressu
 
 Simulation model to evaluate traffic alleviation options
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B6OMtiOKo3k?si=curdA7Jjyt_xYZd3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The aim of the project was to identify and evaluate peak-traffic alleviation options. The peak-traffic was caused by high-volumes of construction traffic entering and exiting a construction site. A simulation model was developed, modelling traffic flow at congested road intersections and dead-ends. Alleviation options, such as road upgrades, intersection pointsmen and staggered construction worker shifts were simulated, and their impact measured through Key Performance Indicators. The most effective options were then recommended for implementation.
 
 My role in the project was as lead modeller and project manager. The project team consisted of thirteen personnel, including undergraduate students and an associate professor from the University of Pretoria, and PhD students from Stellenbosch University.
@@ -265,6 +293,8 @@ My role in the project was as lead modeller and project manager. The project tea
 
 Simulation model to calculate stockyard resource requirements
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hhxg-ZEyfeA?si=5X41WtSqI-JhHOS3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The project entailed determining and analysing resource requirements at a coal stockyard. The objective was to determine the delivery requirements of the stockyard, based on demand requirements and variability, and to determine the resources required to process the deliveries. For this purpose a simulation model was developed of the stockyard, which modelled key stockyard operations and took into account delivery variability, and resource breakdowns and maintenance. The project was further linked with the coal delivery traffic impact study.
 
 My role in the project was as lead modeller and project manager for the modelling component. The modelling team consisted of three personnel, including an undergraduate student and associate professor from the University of Pretoria. The modelling team worked within a larger project team, consisting of engineers from different consulting firms and from the client.
@@ -280,6 +310,8 @@ My role in the project was as lead modeller and project manager for the modellin
 **Type**: Consulting
 
 Simulation model to predict traffic compact from high volume coal deliveries
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SVfvPKn0hk?si=dy_orBCWZROR0oBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The aim of this project was to analyse the impact of coal deliveries to a stockyard on general traffic surrounding the study area. The delivery requirements, determined through the coal stockyard resource requirements study, was used as input and a traffic simulation model of the road network surrounding the stockyard was developed.
 
